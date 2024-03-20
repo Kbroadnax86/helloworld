@@ -13,7 +13,7 @@ function floor(diameter) {
     return wallArea;
  } //end of function
  
- function materialasNeeded() {
+ function materialsNeeded() {
      
     
     var d = document.getElementById("across").value;
@@ -22,10 +22,9 @@ function floor(diameter) {
     var carpetNeeded = Math.ceil(floor(d));
     var paintNeeded = Math.ceil(walls(d, h));
  
-     console.log('Carpet Needed is '+carpetNeeded+' sqft');
-     console.log('Paint Needed is '+paintNeeded+' sqft');
+    console.log('Carpet Needed is '+carpetNeeded+' sqft');
+    console.log('Paint Needed is '+paintNeeded+' sqft');
  
  
  } //end of function
- 
  
